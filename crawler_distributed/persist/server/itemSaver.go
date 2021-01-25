@@ -1,0 +1,36 @@
+package main
+
+import (
+	"GolangWebScript/crawler_distributed/config"
+	"GolangWebScript/crawler_distributed/persist"
+	"GolangWebScript/crawler_distributed/rpcsupport"
+	"flag"
+	"fmt"
+	"github.com/olivere/elastic/v7"
+	"log"
+)
+
+var port = flag.Int("port", 0, "the port for me to listen on")
+
+func main() {
+	flag.Parse()
+	if *port == 0 {
+		fmt.Println("must specify a port")
+		return
+	}
+
+	log.Fatal(serveRpc(fmt.Sprintf(":%d", *port), config.ElasticIndex))
+	// 出错强制退出
+}
+func serveRpc(host string, index string) error {
+	client, err := elastic.NewClient(elastic.SetSniff(false))
+	if err != nil {
+		return err
+	}
+	return rpcsupport.ServeRpc(host,
+		&persist.ItemSaverService{
+			Client: client,
+			Index:  index,
+		})
+
+}
