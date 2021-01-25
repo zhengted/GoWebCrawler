@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"GolangWebScript/crawler/fetcher"
+	"GoWebCrawler/crawler/fetcher"
 	"log"
 )
 

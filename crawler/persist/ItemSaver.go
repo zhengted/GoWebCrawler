@@ -1,7 +1,7 @@
 package persist
 
 import (
-	"GolangWebScript/crawler/engine"
+	"GoWebCrawler/crawler/engine"
 	"context"
 	"errors"
 	"github.com/olivere/elastic/v7"

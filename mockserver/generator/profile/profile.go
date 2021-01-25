@@ -9,8 +9,8 @@ import (
 	"math/rand"
 	"net/http"
 
-	"GolangWebScript/crawler/model"
-	"GolangWebScript/mockserver/config"
+	"GoWebCrawler/crawler/model"
+	"GoWebCrawler/mockserver/config"
 	"github.com/gin-gonic/gin"
 )
 

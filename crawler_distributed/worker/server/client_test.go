@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GoPractice/crawler_distributed/config"
-	"GoPractice/crawler_distributed/rpcsupport"
-	"GoPractice/crawler_distributed/worker"
+	"GoWebCrawler/crawler_distributed/config"
+	"GoWebCrawler/crawler_distributed/rpcsupport"
+	"GoWebCrawler/crawler_distributed/worker"
 	"testing"
 	"time"
 )

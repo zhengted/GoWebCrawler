@@ -1,7 +1,7 @@
 package Scheduler
 
 import (
-	"GolangWebScript/crawler/engine"
+	"GoWebCrawler/crawler/engine"
 )
 
 type SimpleScheduler struct {

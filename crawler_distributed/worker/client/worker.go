@@ -1,9 +1,9 @@
 package client
 
 import (
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler_distributed/config"
-	"GolangWebScript/crawler_distributed/worker"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler_distributed/config"
+	"GoWebCrawler/crawler_distributed/worker"
 	"net/rpc"
 )
 

@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/model"
-	"GolangWebScript/crawler/zhenai/parser"
-	"GolangWebScript/mockserver/config"
-	"GolangWebScript/mockserver/recommendation"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/model"
+	"GoWebCrawler/crawler/zhenai/parser"
+	"GoWebCrawler/mockserver/config"
+	"GoWebCrawler/mockserver/recommendation"
 	"github.com/google/go-cmp/cmp"
 )
 

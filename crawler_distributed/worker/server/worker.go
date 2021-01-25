@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GolangWebScript/crawler_distributed/rpcsupport"
-	"GolangWebScript/crawler_distributed/worker"
+	"GoWebCrawler/crawler_distributed/rpcsupport"
+	"GoWebCrawler/crawler_distributed/worker"
 	"flag"
 	"fmt"
 	"log"

@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/frontend/model"
-	"GolangWebScript/crawler/frontend/view"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/frontend/model"
+	"GoWebCrawler/crawler/frontend/view"
 	"context"
 	"fmt"
 	"github.com/olivere/elastic/v7"

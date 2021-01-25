@@ -1,6 +1,6 @@
 package Scheduler
 
-import "GolangWebScript/crawler/engine"
+import "GoWebCrawler/crawler/engine"
 
 type QueuedScheduler struct {
 	requestChan chan engine.Request

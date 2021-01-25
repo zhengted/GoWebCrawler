@@ -1,8 +1,8 @@
 package persist
 
 import (
-	"GoPractice/crawler/engine"
-	"GoPractice/crawler/model"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/model"
 	"context"
 	"encoding/json"
 	"github.com/olivere/elastic/v7"

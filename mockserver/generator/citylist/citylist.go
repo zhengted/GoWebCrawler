@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"GolangWebScript/mockserver/config"
+	"GoWebCrawler/mockserver/config"
 	"github.com/gin-gonic/gin"
 )
 

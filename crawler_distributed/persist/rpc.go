@@ -1,8 +1,8 @@
 package persist
 
 import (
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/persist"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/persist"
 	"github.com/olivere/elastic/v7"
 	"log"
 )

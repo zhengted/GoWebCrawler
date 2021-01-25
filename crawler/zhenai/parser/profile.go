@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/model"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/model"
 	"regexp"
 	"strconv"
 )

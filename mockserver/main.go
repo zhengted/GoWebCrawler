@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"GolangWebScript/mockserver/config"
-	"GolangWebScript/mockserver/generator/city"
-	"GolangWebScript/mockserver/generator/citylist"
-	"GolangWebScript/mockserver/generator/profile"
-	"GolangWebScript/mockserver/recommendation"
+	"GoWebCrawler/mockserver/config"
+	"GoWebCrawler/mockserver/generator/city"
+	"GoWebCrawler/mockserver/generator/citylist"
+	"GoWebCrawler/mockserver/generator/profile"
+	"GoWebCrawler/mockserver/recommendation"
 	"github.com/gin-gonic/gin"
 )
 

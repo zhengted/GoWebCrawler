@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GolangWebScript/crawler/frontend/controller"
+	"GoWebCrawler/crawler/frontend/controller"
 	"net/http"
 )
 

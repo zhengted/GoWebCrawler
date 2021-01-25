@@ -1,6 +1,6 @@
 package worker
 
-import "GolangWebScript/crawler/engine"
+import "GoWebCrawler/crawler/engine"
 
 type CrawlerService struct {
 }

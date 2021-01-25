@@ -1,13 +1,13 @@
 package main
 
 import (
-	"GolangWebScript/crawler/Scheduler"
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/zhenai/parser"
-	"GolangWebScript/crawler_distributed/config"
-	itemSaver "GolangWebScript/crawler_distributed/persist/client"
-	"GolangWebScript/crawler_distributed/rpcsupport"
-	worker "GolangWebScript/crawler_distributed/worker/client"
+	"GoWebCrawler/crawler/Scheduler"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/zhenai/parser"
+	"GoWebCrawler/crawler_distributed/config"
+	itemSaver "GoWebCrawler/crawler_distributed/persist/client"
+	"GoWebCrawler/crawler_distributed/rpcsupport"
+	worker "GoWebCrawler/crawler_distributed/worker/client"
 	"flag"
 	"log"
 	"net/rpc"

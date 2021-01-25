@@ -1,9 +1,9 @@
 package worker
 
 import (
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/zhenai/parser"
-	"GolangWebScript/crawler_distributed/config"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/zhenai/parser"
+	"GoWebCrawler/crawler_distributed/config"
 	"errors"
 	"fmt"
 	"log"

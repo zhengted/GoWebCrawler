@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"GolangWebScript/crawler/engine"
+	"GoWebCrawler/crawler/engine"
 	"regexp"
 )
 

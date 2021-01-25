@@ -1,10 +1,10 @@
 package main
 
 import (
-	"GolangWebScript/crawler/Scheduler"
-	"GolangWebScript/crawler/engine"
-	"GolangWebScript/crawler/persist"
-	"GolangWebScript/crawler/zhenai/parser"
+	"GoWebCrawler/crawler/Scheduler"
+	"GoWebCrawler/crawler/engine"
+	"GoWebCrawler/crawler/persist"
+	"GoWebCrawler/crawler/zhenai/parser"
 )
 
 func main() {

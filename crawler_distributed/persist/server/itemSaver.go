@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GolangWebScript/crawler_distributed/config"
-	"GolangWebScript/crawler_distributed/persist"
-	"GolangWebScript/crawler_distributed/rpcsupport"
+	"GoWebCrawler/crawler_distributed/config"
+	"GoWebCrawler/crawler_distributed/persist"
+	"GoWebCrawler/crawler_distributed/rpcsupport"
 	"flag"
 	"fmt"
 	"github.com/olivere/elastic/v7"

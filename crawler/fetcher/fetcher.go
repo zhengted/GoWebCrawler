@@ -1,7 +1,7 @@
 package fetcher
 
 import (
-	"GolangWebScript/crawler_distributed/config"
+	"GoWebCrawler/crawler_distributed/config"
 	"bufio"
 	"fmt"
 	"golang.org/x/net/html/charset"

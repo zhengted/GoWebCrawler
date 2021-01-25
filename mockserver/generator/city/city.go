@@ -12,8 +12,8 @@ import (
 	"math/rand"
 	"net/http"
 
-	"GolangWebScript/mockserver/config"
-	"GolangWebScript/mockserver/generator/profile"
+	"GoWebCrawler/mockserver/config"
+	"GoWebCrawler/mockserver/generator/profile"
 	"github.com/gin-gonic/gin"
 )
 

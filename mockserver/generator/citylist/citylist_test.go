@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"testing"
 
-	"GolangWebScript/crawler/zhenai/parser"
-	"GolangWebScript/mockserver/config"
+	"GoWebCrawler/crawler/zhenai/parser"
+	"GoWebCrawler/mockserver/config"
 )
 
 func TestGenerate(t *testing.T) {
